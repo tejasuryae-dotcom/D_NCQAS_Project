@@ -1,0 +1,5 @@
+{
+  "sha256": "1402ca3c214d1ae81d930bc77669a5dda156cb2538ba4e01b893600ac597da94",
+  "recorded_at": "release packaging; after scientific launch",
+  "note": "Cache guard added during release verification. This receipt is not a prospective driver hash; core numerical source hashes and the final protocol snapshot were recorded earlier. Orchestration guards were revised without changing run_job/run_fit numerical behavior."
+}

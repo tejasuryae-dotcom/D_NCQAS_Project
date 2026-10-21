@@ -1,0 +1,9 @@
+{
+  "tests_passed": 20,
+  "notebook_code_cells_passed": 5,
+  "notebook_execution": "sequential in-process, not a live Colab session",
+  "environment": "fresh Python 3.12 virtual environment with exact runtime locks, editable installation, pip check",
+  "validation_logs": "logs/",
+  "verified_at_utc": "2026-10-21T08:12:43.183054+00:00",
+  "release_version": "3.0.0"
+}

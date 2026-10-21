@@ -1,0 +1,485 @@
+{
+  "purpose": "Optimizer selection on development seeds only; maximize mean validation CVaR across tasks/seeds; ties choose smaller learning rate",
+  "jobs": [
+    {
+      "id": "optimizer_3_100_sgd_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "sgd_0.003",
+      "seed": 100,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "sgd",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_100_adam_0.001",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.001",
+      "seed": 100,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.001
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_100_adam_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.003",
+      "seed": 100,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_101_sgd_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "sgd_0.003",
+      "seed": 101,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "sgd",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_101_adam_0.001",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.001",
+      "seed": 101,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.001
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_101_adam_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.003",
+      "seed": 101,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_102_sgd_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "sgd_0.003",
+      "seed": 102,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "sgd",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_102_adam_0.001",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.001",
+      "seed": 102,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.001
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_102_adam_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.003",
+      "seed": 102,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_103_sgd_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "sgd_0.003",
+      "seed": 103,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "sgd",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_103_adam_0.001",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.001",
+      "seed": 103,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.001
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_3_103_adam_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.003",
+      "seed": 103,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 3,
+        "topology_kind": "tree",
+        "max_steps": 8,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_100_sgd_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "sgd_0.003",
+      "seed": 100,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "sgd",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_100_adam_0.001",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.001",
+      "seed": 100,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.001
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_100_adam_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.003",
+      "seed": 100,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_101_sgd_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "sgd_0.003",
+      "seed": 101,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "sgd",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_101_adam_0.001",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.001",
+      "seed": 101,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.001
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_101_adam_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.003",
+      "seed": 101,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_102_sgd_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "sgd_0.003",
+      "seed": 102,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "sgd",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_102_adam_0.001",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.001",
+      "seed": 102,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.001
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_102_adam_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.003",
+      "seed": 102,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_103_sgd_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "sgd_0.003",
+      "seed": 103,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "sgd",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_103_adam_0.001",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.001",
+      "seed": 103,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.001
+      },
+      "test_draws": 60
+    },
+    {
+      "id": "optimizer_5_103_adam_0.003",
+      "phase": "development",
+      "method": "D-NCQAS",
+      "variant": "adam_0.003",
+      "seed": 103,
+      "training": {
+        "method_name": "D-NCQAS",
+        "n_qubits": 5,
+        "topology_kind": "tree",
+        "max_steps": 12,
+        "n_generations": 16,
+        "episodes_per_gen": 16,
+        "saboteur_episodes_per_gen": 8,
+        "n_traj_samples": 20,
+        "optimizer": "adam",
+        "learning_rate": 0.003
+      },
+      "test_draws": 60
+    }
+  ]
+}

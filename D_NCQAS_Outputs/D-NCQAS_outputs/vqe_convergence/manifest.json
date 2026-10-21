@@ -1,0 +1,845 @@
+{
+  "protocol": "same five initializations, COBYLA caps 400/2000, BFGS maxiter2000 with parameter-shift Jacobian; final algorithm fixed as BFGS; stationarity threshold 1e-6 Ha/radian; no global optimality claim",
+  "jobs": [
+    {
+      "molecule": "H2.json",
+      "seed": 1000,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1000,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1000,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1000,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1001,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1001,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1001,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1001,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1002,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1002,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1002,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1002,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1003,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1003,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1003,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1003,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1004,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1004,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1004,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1004,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1005,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1005,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1005,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1005,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1006,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1006,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1006,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1006,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1007,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1007,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1007,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1007,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1008,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1008,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1008,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1008,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1009,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1009,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1009,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "H2.json",
+      "seed": 1009,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1000,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1000,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1000,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1000,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1001,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1001,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1001,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1001,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1002,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1002,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1002,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1002,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1003,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1003,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1003,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1003,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1004,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1004,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1004,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1004,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1005,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1005,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1005,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1005,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1006,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1006,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1006,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1006,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1007,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1007,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1007,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1007,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1008,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1008,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1008,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1008,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1009,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1009,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1009,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "HeHplus.json",
+      "seed": 1009,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1000,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1000,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1000,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1000,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1001,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1001,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1001,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1001,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1002,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1002,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1002,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1002,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1003,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1003,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1003,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1003,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1004,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1004,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1004,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1004,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1005,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1005,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1005,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1005,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1006,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1006,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1006,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1006,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1007,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1007,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1007,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1007,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1008,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1008,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1008,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1008,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1009,
+      "layers": 1,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1009,
+      "layers": 1,
+      "training": "Nominal",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1009,
+      "layers": 2,
+      "training": "Clean",
+      "test_draws": 100
+    },
+    {
+      "molecule": "LiH.json",
+      "seed": 1009,
+      "layers": 2,
+      "training": "Nominal",
+      "test_draws": 100
+    }
+  ]
+}

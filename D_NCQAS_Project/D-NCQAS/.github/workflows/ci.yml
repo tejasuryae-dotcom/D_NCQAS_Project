@@ -1,0 +1,16 @@
+name: verify
+on: [push, pull_request]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-runtime.lock.txt
+      - run: python -m pip install --no-deps -e .
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/run_all_experiments.py --config configs/smoke.json --output outputs/ci
+      - run: python scripts/generate_figures_and_tables.py --output outputs/ci
+      - run: python scripts/verify_pipeline_integrity.py --output outputs/ci

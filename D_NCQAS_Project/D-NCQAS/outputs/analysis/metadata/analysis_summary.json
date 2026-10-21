@@ -1,0 +1,17 @@
+{
+  "primary_unit": "seed, equally averaged over three fixed tasks",
+  "primary_seeds": 32,
+  "primary_family": 4,
+  "positive_primary": 1,
+  "negative_primary": 0,
+  "main_runs": 672,
+  "ablation_runs": 64,
+  "development_runs": 108,
+  "raw_ghz_observations": 220800,
+  "vqe_fits": 120,
+  "vqe_observations": 36120,
+  "vqe_bfgs_stationarity_rate": 1.0,
+  "vqe_bfgs_solver_success_rate": 0.9333333333333333,
+  "max_rollout_probability_error": 0.0,
+  "planning_power": 0.8045886665112788
+}

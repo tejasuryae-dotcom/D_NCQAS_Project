@@ -1,0 +1,14 @@
+{
+  "scientific_sources": {
+    "src/d_ncqas/__init__.py": "8b3cb6fdf155df40a8b8babed55ba28272cb4924f03efaf33331582c4ef073ee",
+    "src/d_ncqas/agents.py": "5fedf9e420bc19672a0d71bf4718fb00fcc38dba75a3eba28d2c198830ae2069",
+    "src/d_ncqas/coevolution.py": "3a3d7ef48894b26b2084c3e7ed924edb9c43a79905cf8713866032fabac48aa0",
+    "src/d_ncqas/evaluation.py": "9c04d304e2a9ff1ab19b6b93ca0e476c22988772029f93b6883451002f44f351",
+    "src/d_ncqas/noise_models.py": "84dfa4f7a2d6be133a6de7e9bb671d077c1a3d313ef60d5a04ec1c11acb8f6bf",
+    "src/d_ncqas/search_baselines.py": "dfac9d058f8a541ea7c03fca0b204502eae14ee77c18d00d35f602d60d55df48",
+    "src/d_ncqas/simulator.py": "305f4899063c6cc621fe8ad345ca5f6977518be6333fa564471053cc507c5eb0",
+    "src/d_ncqas/vqe.py": "743d93a6364e8b55a75273c1b0e1b1da5d17d72ebe2d9f4247d60c9a10bd0874"
+  },
+  "recorded_at": "release verification after experiment completion",
+  "note": "Added to protect future cache reuse. This is a post-run source record, not evidence of external preregistration. Numerical modules match the earlier GHZ source snapshots."
+}

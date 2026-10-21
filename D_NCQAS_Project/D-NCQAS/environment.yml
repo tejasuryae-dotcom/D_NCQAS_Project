@@ -1,0 +1,8 @@
+name: d-ncqas-v3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -r requirements-runtime.lock.txt

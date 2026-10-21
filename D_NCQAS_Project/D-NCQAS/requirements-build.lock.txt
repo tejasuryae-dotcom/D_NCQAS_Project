@@ -1,0 +1,4 @@
+# Exact build tools specified in pyproject.toml; runtime lock pins packaging too.
+setuptools==84.0.0
+wheel==0.45.1
+packaging==26.3

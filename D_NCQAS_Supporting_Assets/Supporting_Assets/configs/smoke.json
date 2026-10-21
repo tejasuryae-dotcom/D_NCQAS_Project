@@ -1,0 +1,1 @@
+{"schema_version":2,"purpose":"Execution smoke test, not inference","qubits":[3],"topologies":["tree"],"seeds":[0,1],"test_draws":10,"training":{"n_generations":2,"episodes_per_gen":4,"saboteur_episodes_per_gen":2,"n_traj_samples":5},"vqe":{"seeds":[0],"restarts":2,"maxiter":40,"test_draws":3},"sensitivity":false}

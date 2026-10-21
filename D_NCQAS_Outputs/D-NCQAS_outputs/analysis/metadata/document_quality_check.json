@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "manuscript_pages": 10,
+  "rendered_pages_reviewed": 10,
+  "out_of_page_text_spans": 0,
+  "latex_overfull_or_warning_lines": 0,
+  "scientific_figures_reviewed": 10,
+  "figure_formats": [
+    "vector PDF",
+    "600-DPI PNG"
+  ],
+  "manuscript_sha256": "b68ae0d2dfd004f96c9f4e1062e4feb24fca3c11ff740ad2b5c6185d050a30ec"
+}

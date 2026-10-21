@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this corrected research software release. Replace collective attribution with the confirmed author list when depositing the release."
+type: software
+title: "D-NCQAS: Auditable Noise-Aware Quantum Architecture Search"
+version: 3.0.0
+date-released: '2026-10-21'
+license: MIT
+authors:
+  - name: "D-NCQAS contributors"
+abstract: "Optimizer diagnostics, development-selected search controls, a prospective 32-seed study, and independently checked compact CAS(2,2) VQE stationarity."
+keywords:
+  - quantum architecture search
+  - reproducibility
+  - PPO
+  - synthetic noise
+  - CVaR

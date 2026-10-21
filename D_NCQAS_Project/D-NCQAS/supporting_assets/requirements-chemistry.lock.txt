@@ -1,0 +1,6 @@
+# Resolved and tested on CPython 3.12, Linux x86_64. Exact installed dependency closure.
+h5py==3.16.0
+numpy==2.3.5
+pyscf==2.11.0
+scipy==1.17.0
+setuptools==84.0.0

@@ -1,0 +1,7 @@
+{
+  "criterion": "Mean candidate-validation CVaR across both tasks and four development seeds",
+  "selected_optimizer": "adam",
+  "selected_learning_rate": 0.001,
+  "reason": "Highest mean validation score among the three predetermined settings",
+  "test_seeds_used": false
+}

@@ -1,0 +1,25 @@
+test_actor_positive_advantage (test_core.CoreTests.test_actor_positive_advantage) ... ok
+test_budget_all_templates (test_core.CoreTests.test_budget_all_templates) ... ok
+test_channels_and_step_path (test_core.CoreTests.test_channels_and_step_path) ... ok
+test_cvar_fractional_mass (test_core.CoreTests.test_cvar_fractional_mass) ... ok
+test_entropy_increases (test_core.CoreTests.test_entropy_increases) ... ok
+test_full_backprop_finite_differences (test_core.CoreTests.test_full_backprop_finite_differences) ... ok
+test_ghz_exact_all_graphs (test_core.CoreTests.test_ghz_exact_all_graphs) ... ok
+test_hamiltonian_and_readout (test_core.CoreTests.test_hamiltonian_and_readout) ... ok
+test_hash_full_precision (test_core.CoreTests.test_hash_full_precision) ... ok
+test_independent_fermionic_hamiltonian_reconstruction (test_core.CoreTests.test_independent_fermionic_hamiltonian_reconstruction) ... ok
+test_paired_statistics (test_core.CoreTests.test_paired_statistics) ... ok
+test_scenarios_matched (test_core.CoreTests.test_scenarios_matched) ... ok
+test_topology_rejects_illegal_gate (test_core.CoreTests.test_topology_rejects_illegal_gate) ... ok
+test_training_reproducible_and_controls (test_core.CoreTests.test_training_reproducible_and_controls) ... ok
+test_two_qubit_pauli_reference (test_core.CoreTests.test_two_qubit_pauli_reference) ... ok
+test_adam_first_step_bias_correction (test_revision.RevisionTests.test_adam_first_step_bias_correction) ... ok
+test_baseline_budget_and_legality (test_revision.RevisionTests.test_baseline_budget_and_legality) ... ok
+test_clipped_surrogate_has_zero_actor_gradient (test_revision.RevisionTests.test_clipped_surrogate_has_zero_actor_gradient) ... ok
+test_diagnostics_and_frozen_policy (test_revision.RevisionTests.test_diagnostics_and_frozen_policy) ... ok
+test_parameter_shift_gradient (test_revision.RevisionTests.test_parameter_shift_gradient) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.265s
+
+OK

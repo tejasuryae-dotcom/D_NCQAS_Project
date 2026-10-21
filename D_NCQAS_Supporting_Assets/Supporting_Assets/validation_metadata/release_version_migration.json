@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "path": "src/d_ncqas/__init__.py",
+      "experiment_sha256": "07fb9c543d138f46f24d651898b9c8a9bd8d7533a60b4972b33b0fae17f22683",
+      "release_sha256": "8b3cb6fdf155df40a8b8babed55ba28272cb4924f03efaf33331582c4ef073ee",
+      "change": "Only __version__: 2.0.0 -> 3.0.0"
+    }
+  ],
+  "note": "Applied after all scientific runs. Every numerical source byte is unchanged; only the exact module version constant was reconciled with pyproject and citation metadata."
+}

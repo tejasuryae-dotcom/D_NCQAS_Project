@@ -1,0 +1,28 @@
+{
+  "development_optimizer_jobs": 24,
+  "development_baselines_jobs": 48,
+  "development_scaling_jobs": 36,
+  "final_study_jobs": 736,
+  "status": "PASS",
+  "raw_ghz_observations": 220800,
+  "vqe_fits": 120,
+  "vqe_observations": 36120,
+  "vqe_stationary_fits": 120,
+  "vqe_finite_difference_stationarity_checked": 120,
+  "vqe_solver_success_fits": 112,
+  "primary_seed_pairs": 32,
+  "primary_holm_family": 4,
+  "selected_ghz_replay_jobs": 12,
+  "vqe_energy_replay_jobs": 12,
+  "replay_tolerance": 1e-12,
+  "numerical_sources_match": true,
+  "version_only_metadata_migration": [
+    {
+      "path": "src/d_ncqas/__init__.py",
+      "experiment_sha256": "07fb9c543d138f46f24d651898b9c8a9bd8d7533a60b4972b33b0fae17f22683",
+      "release_sha256": "8b3cb6fdf155df40a8b8babed55ba28272cb4924f03efaf33331582c4ef073ee",
+      "change": "Only __version__: 2.0.0 -> 3.0.0"
+    }
+  ],
+  "prospective_protocol_hash_matches": true
+}

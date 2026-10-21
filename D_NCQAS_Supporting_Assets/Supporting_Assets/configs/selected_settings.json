@@ -1,0 +1,12 @@
+{
+  "optimizer": "adam",
+  "learning_rate": 0.001,
+  "CEM": {
+    "elite_fraction": 0.125
+  },
+  "Age-Evolution": {
+    "tournament": 2
+  },
+  "criterion": "mean validation CVaR on seeds100-103, tree n3/5; three candidates per method",
+  "final_seeds_used_for_selection": false
+}
